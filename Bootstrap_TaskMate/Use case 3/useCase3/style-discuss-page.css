@@ -1,0 +1,34 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600&display=swap');
+
+body {
+    font-family: 'Poppins', sans-serif;
+    background: white;
+}
+
+.back-discuss {
+    font-size: 24px;
+    color: black;
+    cursor: pointer;
+}
+
+img.rounded-circle {
+    width: 60px;
+    height: 60px;
+    object-fit: cover;
+    align-self: flex-start;
+}
+
+/* Floating Button khusus */
+.floating-button {
+    bottom: 50px;
+    right: 25px;
+    width: 60px;
+    height: 60px;
+    font-size: 40px;
+    border: 5px solid black;
+    background-color: white;
+}
+
+.floating-button:hover {
+    background: #333;
+}

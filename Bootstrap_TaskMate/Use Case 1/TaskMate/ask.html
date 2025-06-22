@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Halaman Pertanyaan</title>
+    
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
+
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;700&display=swap" rel="stylesheet">
+    
+    <link rel="stylesheet" href="style1.css">
+</head>
+<body class="bg-light">
+
+<div class="container-fluid bg-white shadow-sm py-3">
+    <div class="d-flex align-items-center">
+        <span class="fw-bold text-dark" style="font-size: 24px;">&#60; Your Question</span>
+    </div>
+</div>
+
+
+    <!-- Pilih Kategori -->
+    <div class="container-sm mt-4">
+        <h2 class="fw-bold fs-5">Pilih Kategori</h2>
+        <div class="row row-cols-2 g-2 mt-2">
+            <div class="col"><div class="category btn btn-light w-100">Pemrograman SQL</div></div>
+            <div class="col"><div class="category btn btn-light w-100">JavaScript</div></div>
+            <div class="col"><div class="category btn btn-light w-100">Java</div></div>
+            <div class="col"><div class="category btn btn-light w-100">Jaringan Komputer</div></div>
+            <div class="col"><div class="category btn btn-light w-100">Pemodelan Proses Bisnis</div></div>
+        </div>
+    </div>
+
+    <!-- Form Pertanyaan -->
+    <div class="container-sm mt-4">
+        <h2 class="fw-bold fs-5">Pertanyaan</h2>
+        <form>
+            <textarea class="form-control mt-2" rows="5" placeholder="Tulis pertanyaan di sini..."></textarea>
+            <button type="submit" class="btn w-100 mt-3 submit-btn">Submit Pertanyaan</button>
+        </form>
+    </div>
+
+    <!-- Bootstrap JS -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
+</body>
+</html>

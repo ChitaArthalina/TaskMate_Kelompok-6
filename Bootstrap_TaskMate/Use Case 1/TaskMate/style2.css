@@ -1,0 +1,56 @@
+body {
+    font-family: 'Poppins', sans-serif;
+}
+
+/* Profil */
+.profile-pic {
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    object-fit: cover;
+}
+
+/* Username & Handle */
+.username {
+    font-size: 16px;
+    font-weight: 700;
+    margin: 0;
+}
+
+.handle {
+    font-size: 16px;
+    color: gray;
+    margin: 2px 0;
+}
+
+/* Isi Pertanyaan */
+.fill {
+    font-size: 16px;
+    border-bottom: 1px solid #ddd;
+}
+
+/* Status Jawaban */
+.no-answer {
+    font-size: 16px;
+    color: gray;
+    margin-top: 20px;
+}
+
+/* Tombol Tambah */
+.floating-button {
+    position: fixed;
+    bottom: 50px;
+    right: 25px;
+    width: 60px;
+    height: 60px;
+    background: #fff;
+    border: 5px solid black;
+    color: black;
+    font-size: 40px;
+    font-weight: bolder;
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    cursor: pointer;
+}

@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Login</title>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css">
+    <link rel="stylesheet" href="view/login.css">
+</head>
+<body>
+    <div class="container d-flex justify-content-center align-items-center min-vh-100">
+        <div class="card p-3 shadow-sm" style="width: 100%; max-width: 315px;">
+            <div class="text-center">
+                <h3 class="fw-bold">Welcome to</h3>
+                <h1 class="fw-bolder">TASKMATE</h1>
+            </div>
+            
+            <form class="mt-3" action="index.php?c=Login&m=masuk" method="post">
+                <div class="mb-3">
+                    <input type="text" name="username" class="form-control" placeholder="Username" required>
+                </div>
+                <div class="mb-4">
+                    <input type="password" name="password" class="form-control" placeholder="Password" required>
+                </div>
+                <button type="submit" class="btn btn-dark fw-bold w-100">Login</button>
+            </form>
+        </div>
+    </div>
+</body>
+</html>

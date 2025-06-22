@@ -1,0 +1,47 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600&display=swap');
+
+body {
+    font-family: 'Poppins', sans-serif;
+    background-color: #fff;
+}
+
+.back-discuss {
+    font-size: 24px;
+    color: black;
+    cursor: pointer;
+    text-decoration: none;
+}
+
+.profile-pic {
+    width: 60px;
+    height: 60px;
+    object-fit: cover;
+    align-self: flex-start;
+}
+
+.pertanyaan {
+    font-size: 16px;
+    text-align: justify;
+    padding-left:20px;
+    padding-right:20px;
+}
+
+h5 {
+    font-size: 18px;
+}
+
+.box-jawaban textarea {
+    height: 120px;
+    font-size: 14px;
+    border: 1px solid #ccc;
+    background: #f9f9f9;
+}
+
+.btn {
+    color: white;
+    cursor: pointer;
+}
+
+.btn:hover {
+    background: #444;
+}
